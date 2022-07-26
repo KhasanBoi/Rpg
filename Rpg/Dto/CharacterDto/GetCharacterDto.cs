@@ -1,4 +1,5 @@
-﻿using Rpg.Models;
+﻿using Rpg.Dto.WeaponDto;
+using Rpg.Models;
 
 namespace Rpg.Dto.CharacterDto
 {
@@ -11,5 +12,6 @@ namespace Rpg.Dto.CharacterDto
         public int Defense { get; set; } = 10;
         public int Intelligence { get; set; } = 10;
         public RpgClass Class { get; set; } = RpgClass.Knight;
+        public GetWeaponDto Weapon { get; set; }
     }
 }
